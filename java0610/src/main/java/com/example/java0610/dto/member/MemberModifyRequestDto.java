@@ -1,10 +1,9 @@
-package com.example.java0610.dto;
+package com.example.java0610.dto.member;
 
 import lombok.Getter;
 
 @Getter
-public class MemberRequestDto {
-    private String email;
+public class MemberModifyRequestDto {
     private String name;
     private int age;
     private int gender;

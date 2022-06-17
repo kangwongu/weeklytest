@@ -1,13 +1,16 @@
 package com.example.java0610.domain;
 
-import com.example.java0610.dto.MemberModifyRequestDto;
-import com.example.java0610.dto.MemberRequestDto;
+import com.example.java0610.dto.member.MemberModifyRequestDto;
+import com.example.java0610.dto.member.MemberRequestDto;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import java.sql.Time;
 
+@AllArgsConstructor
+@Builder
 @Entity
 @NoArgsConstructor
 @Getter
